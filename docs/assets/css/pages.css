@@ -1,0 +1,12 @@
+/* A quiet, honest label for the public static showcase. */
+.pages-banner{background:#f3f5ec;border-bottom:1px solid #e3e8d8;color:#51614b;font-size:.73rem;line-height:1.55;padding:10px 0}
+.pages-banner .container{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;text-align:center}
+.pages-banner strong{font-family:Nunito,sans-serif;color:var(--ink);white-space:nowrap}
+.pages-account{margin-top:25px}
+.pages-account>p{line-height:1.8}
+.pages-account .btn{width:100%}
+.pages-account>.text-link,.pages-checkout>.text-link{display:block;text-align:center;margin-top:18px}
+.pages-checkout>p{max-width:570px;margin:18px auto}
+.pages-checkout>.notice{max-width:520px;margin:20px auto}
+[data-hosting=github-pages] input:disabled,[data-hosting=github-pages] select:disabled,[data-hosting=github-pages] textarea:disabled{background:#f5f5ef;color:#72776a;cursor:not-allowed}
+@media(max-width:600px){.pages-banner{font-size:.66rem;padding:9px 0}.pages-banner .container{gap:2px}.pages-banner strong{white-space:normal}.pages-account{margin-top:0}}
